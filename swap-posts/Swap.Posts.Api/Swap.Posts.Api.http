@@ -1,0 +1,6 @@
+@Swap.Posts.Api_HostAddress = http://localhost:5032
+
+GET {{Swap.Posts.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
