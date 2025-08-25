@@ -22,6 +22,7 @@ namespace Swap.Posts.Domain.Entities
         public string Description { get; set; }
         public bool IsArchive { get; set; }
         public string CategoryName { get; set; }
+        public string CategoryName1 { get; set; }
 
     }
 }
