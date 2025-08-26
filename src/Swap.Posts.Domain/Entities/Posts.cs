@@ -10,6 +10,7 @@ namespace Swap.Posts.Domain.Entities
 {
     public class Posts
     {
+        //Binary Json
         [BsonId]
         [BsonRepresentation(BsonType.String)]
         public Guid ItemId { get; set; }
@@ -22,7 +23,10 @@ namespace Swap.Posts.Domain.Entities
         public string Description { get; set; }
         public bool IsArchive { get; set; }
         public string CategoryName { get; set; }
-        public string CategoryName1 { get; set; }
+        public string CategoryName5 { get; set; }
+
+        public string CategoryName9 { get; set; }
+
 
     }
 }
